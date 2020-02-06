@@ -1,0 +1,31 @@
+Funciones:
+-es un procedimiento en javascript
+-un conjunto de sentencias que realizan una tarea o calculan un valor
+-para usar una funcion debe definirla en al ambito del cual desea llamarla
+
+*Definiciones 
+Declaraciones de Funcion: la definicion de una funcion (tambien llamada declaracion de 
+funcion o sent de funcion) consiste de la palabra clave (reservada) function, sigue el nombre de la funcion
+(opcional) sugie una lista de argumentos para la funcion encerrado en paréntesis y separados por comas, sigue la sentencias 
+javascroipt que defina la funcion encerrada por las llaves
+
+function suma(parametros){
+    return number + number;
+}
+
+
+Functions anonimas:
+una funcion puede ser anonima o puede ser llamada, (puede o no puede tener nombre).
+
+-dif entre func con nombe y func sin nombre: cuando declaramos una func anonimas no puede 
+ser procesada hasta que el interprete llegue hasta donde esta declarada, el vargador va leyendo de la pag de arriba a abajo
+entonces la llamada anonima debe estar mas abajo, en cambio en una func con nombre, el navegador lo que hace es buscar las declaraciones, 
+variables y funciones que puedan existir, despues comienza a leer linea por linea de modo que podamos poner la llamada a una 
+funcion antes de que esta haya sido declarada
+
+ÁMBITO DE LA FUNCION 
+Las variables definidas dentro de una funcion no pueden ser accedidas de ningun lugar fuera de la funcion
+ya que la variable esta definida solo en el ambito de la funcion sin embargo una funcion puede acceder a todas la variables
+y funciones definidas dentro del ambito en el cual esta definida. 
+Una funcion definida en el ambito global puede acceder a todas las variables definidas en el ambito global.
+*funciones dentro de funciones una funcion definida dentr de una funcion tambien puede acceder en todas las variables definidas en su funcion padre y a cualquier otra variable a la que la funcion padre tenga acceso. 
